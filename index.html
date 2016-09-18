@@ -2,22 +2,76 @@
 layout: default
 ---
 
-<div class="home">
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <img alt="Lishop screenshot 1" src="/images/lishop_screenshot_1.png" width="360" />
+    </div>
+    <div class="col-md-8" style='text-align:center;'>
+	    <a href="https://itunes.apple.com/us/app/lishop-remember-shopping-your/id421705296?mt=8&uo=6&at=&ct=" target="itunes_store"><img style="margin-top:15px;margin=auto;" src="/images/lishop_icon.png" alt="lishop icon"></a>
+    </div>
+    
+    <div class="col-md-8" style='text-align:center;margin-top:20px;'>
+      <h1 class='title'>LiShop</h1>
+      <h2>To remember all you have to buy</h2>
+    </div>
+    <div class="col-md-8" style='text-align:center;'>
+	    <a href="https://itunes.apple.com/us/app/lishop-remember-shopping-your/id421705296?mt=8&uo=6&at=&ct=" target="itunes_store"><img style="margin-top:30px;margin=auto;" src="/images/available.png" alt="itunes available app"></a>
+    </div>
+  </div><!--/row-->
 
-  <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title | escape }}</a>
-        </h2>
-      </li>
-    {% endfor %}
-  </ul>
+  <div class="row">
+    <div class="col-md-8" style="margin-top:150px">
+      <h2>Features</h2>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+  		<h4>Ease of use</h4>
 
-</div>
+  		<p>The easiest way to manage your shopping list. You can easily add new items. Arrange them by categories. <strong>Mark your prices and favorite stores.</strong></p>
+
+  		<p>You can <strong>quickly search</strong> for the item you wish to add: using the search engine indexing and column.</p>
+
+  		<p>From any point of the app can edit the properties of any item.</p>
+
+
+  		<h4>Multilanguage</h4>
+
+  		<p>Supported languages: <strong>English, Spanish, Portuguese and Italian</strong>.</p>
+
+
+  		<h4>Share</h4>
+
+  		<p>You can send the list by <strong>email</strong>.</p>
+
+
+  		<h4>No Ads</h4>
+
+  		<p>The app has ads inside. But if you prefer to remove them, you can go to settings and elimiarlos at a cost.</p>
+    </div>
+    <div class="col-md-4">
+      <img alt="Lishop screenshot 2" src="/images/lishop_screenshot_2.png" width="360" />
+    </div>
+  </div><!--/row-->
+
+  <div class="row">
+    <div class="col-md-5">
+      <img alt="Lishop screenshot 3" src="/images/lishop_screenshot_3.png" width="360" />
+    </div>
+
+    <div class="col-md-7" style="margin-top:150px">
+      <h2>Trailer</h2>
+      <iframe src="http://player.vimeo.com/video/54048970?badge=0" class="col-md-12" height="350" frameborder="0" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe> 
+    </div>
+    <div class="col-md-7">
+      <p><a href="http://vimeo.com/54048970">LiShop Trailer</a> from <a href="http://vimeo.com/veladan">Dani Vela</a> on <a href="http://vimeo.com">Vimeo</a>.</p>
+    </div>
+  </div><!--/row-->
+
+
+  <div class="row">
+    <div class="col-md-12" style='text-align:center;'>
+      <a href="https://itunes.apple.com/us/app/lishop-remember-shopping-your/id421705296?mt=8&uo=6&at=&ct=" target="itunes_store"><img style="margin-top:30px;margin=auto;" src="/images/available.png" alt="itunes available app"></a>
+    </div>
+  </div>
+</div> <!-- container -->
