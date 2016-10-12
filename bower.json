@@ -1,0 +1,27 @@
+{
+  "name": "lishopapp.com",
+  "authors": [
+    "Daniel Vela <dani_vela@me.com>"
+  ],
+  "description": "website for lishop iphone app",
+  "main": "",
+  "moduleType": [
+    "globals"
+  ],
+  "keywords": [
+    "lishop",
+    "app",
+    "iphone",
+    "shopping",
+    "list"
+  ],
+  "license": "MIT",
+  "homepage": "www.lishopapp.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
