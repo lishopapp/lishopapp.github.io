@@ -44,12 +44,18 @@ dt {
     padding-left: 100px;
     padding-right: 100px;
   }
+  .subcontent {
+    margin-top:150px;
+  }
 }
 
 @media (max-width: $screen-sm-max) {
   .content {
     padding-left: 0px;
     padding-right: 0px;
+  }
+  .subcontent {
+    margin-top:15px;
   }
 }
 
